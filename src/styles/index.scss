@@ -29,6 +29,10 @@
     src: url(../fonts/Roboto-Medium.ttf);
 }
 @font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
     font-family: 'BebasNeue-Regular';
     src: url(../fonts/BebasNeue-Regular.ttf);
 }
@@ -52,21 +56,24 @@ main{
         align-items: center;
         .main__info{
             background: #F8FBFF;
-            padding: 20px 18px 657.14px 17px;
+            padding: 20px 18px 607.14px 17px;
             box-shadow: 8px 0px 22px -7px #DCE3EC;
             .user{
                 display: flex;
                 align-items: center;
-                .user__icon{
+                .button{
+                    border: 0;
+
+                    padding: 0;
+                    background-color: #fff;
                     border-radius: 50%;
-                    background: #fff;
+                    outline-offset: 0;
                     img{
-                        z-index: 1;
                         padding: 15.1px 14.92px 13.97px 14.3px;
-                        border-radius: 50%;
-                        background: #fff;
                     }
+                    
                 }
+        
     
                 .user__info{
                     margin-left: 7px;
@@ -198,7 +205,7 @@ main{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: -752px;
+    margin-top: -702px;
     margin-left: 320px;
     .advert__search{
         display: flex;
@@ -381,7 +388,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -1140px;
+    margin-top: -1090px;
     margin-left: 200px;
     .uploads_search{
         display: flex;
@@ -507,7 +514,7 @@ main{
 
 
 .dushboard__menu{
-    margin-top: -1025px;
+    margin-top: -975px;
     margin-left: 280px;
     .search__help{
         z-index: 10;
@@ -723,7 +730,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -1140px;
+    margin-top: -1090px;
     margin-left: 200px;
     .users__search{
     display: flex;
@@ -886,7 +893,7 @@ table{
 }
 
 .mess__menu{
-    margin-top: -1006px;
+    margin-top: -955.5px;
     margin-left: 320px;
     .mess__search{
         display: flex;
@@ -933,12 +940,18 @@ table{
         .card1{
             display: flex;
             align-items: center;
-            .checkbox{
-                cursor: pointer;
-                width: 20px;
-                height: 20px;
+            .to_message{
                 margin-right: 35px;
+                width: 20px;
+                .checkbox{
+                    cursor: pointer;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 35px;
+                }
+
             }
+           
 
             img{
                 width: 50px;
@@ -965,6 +978,7 @@ table{
                     font-weight: 400;
                     letter-spacing: -0.412px;
                     margin-right: 343px;
+                    cursor: pointer;
                 }
               
 
@@ -993,11 +1007,16 @@ table{
         .card2{
             display: flex;
             align-items: center;
-            .checkbox{
-                cursor: pointer;
-                width: 20px;
-                height: 20px;
+            .to_message{
                 margin-right: 35px;
+                width: 20px;
+                .checkbox{
+                    cursor: pointer;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 35px;
+                }
+
             }
 
             img{
@@ -1045,7 +1064,6 @@ table{
             margin-top: -2px;
             color: #96A0B5;
             opacity: 0.5;
-            // background: #f7f8fa;
             width: 1014px;
             height: 1px;
         }
@@ -1055,13 +1073,17 @@ table{
     .card3{
         display: flex;
         align-items: center;
-        .checkbox{
-            cursor: pointer;
-            width: 20px;
-            height: 20px;
+        .to_message{
             margin-right: 35px;
-        }
+            width: 20px;
+            .checkbox{
+                cursor: pointer;
+                width: 20px;
+                height: 20px;
+                margin-right: 35px;
+            }
 
+        }
         img{
             width: 50px;
             height: 50px;
@@ -1107,18 +1129,398 @@ table{
         margin-top: -2px;
         color: #96A0B5;
         opacity: 0.5;
-        // background: #f7f8fa;
         width: 1014px;
         height: 1px;
     }
 }
 
-.Line__bars{
-    // color: #e8a3a3;
-    Line{
-        // fill: linear-gradient(180deg, rgba(254, 213, 118, 0.40) 0%, rgba(254, 213, 118, 0.00) 100%);
+.message__user{
+    display: flex;
+    margin-top: -32px;  
+    .container{
+        .card{
+            height: 779px;
+            margin-left: 90px;
+            width: 898px;
+            border: 0;
+            margin-top: 60px;
+            .card-header{
+                z-index: 1;
+                border-radius: 5px;
+                background: #F8FBFF;
+                box-shadow: 0px 12px 15px -11px #DCE3EC;     
+                border: 0;  
+                height: 68px;     
+                display: flex;
+                align-items: center;
+                .arrow__vector{
+                    .arrow__icon{
+                        margin-right: 390px;
+                        margin-top: -2px;
+                    }
+
+                }
+              
+                .user__class{
+                    margin-top: 12px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    p{
+                        margin-top: -3px;
+                        color:  #6C757D;
+                        font-family: 'Inter-Regular';
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 22px;
+                    }
+                    
+                    
+                }
+    
+            }
+            .card-body{
+                background: #F8FBFF;
+                box-shadow: 0px 10px 18px 0px #DCE3EC;
+                overflow-y: scroll;
+                position: sticky;
+                    .message__card{
+                    margin-top: 31px;
+                    .movie{
+                        cursor: pointer;
+                    }
+                    border-radius: 5px;
+                    background: #FFF;
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+                    margin-left: 545px;
+                    .movie__title{
+                        margin-left: 8.99px;
+                        margin-top: 14.06px;
+                        color: #323232;
+                        font-family: 'Inter-SemiBold';
+                        font-size: 13.123px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 22.208px; /* 169.231% */
+                        letter-spacing: -0.412px;
+                    }
+                    .movie__info{
+                        margin-top: -14px;
+                        margin-left: 8.09px;
+                        color: #0A0A0A;
+                        font-family: 'Inter-Regular';
+                        font-size: 13.123px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 22.208px;
+                        letter-spacing: -0.412px;
+                    }
+                    .select__icons {
+                        display: flex;
+                        align-items: center;
+                        margin-left: 228px;
+                        margin-top: -20px;
+                        margin-bottom: -10px;
+                        margin-right: 10px;
+                        p{
+                            margin-right: 5px;
+                            color: #9A9A9A;
+                            font-family: 'Inter-Regular';
+                            font-size: 13.123px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 22.208px;
+                            letter-spacing: -0.412px;
+                        }
+                        img{
+                            margin-right: 6.65px;
+                            margin-top: -20px;
+                        }
+                    }
+
+
+                }
+                .mini__card{
+                    margin-left: 621.6px;
+                    margin-top: 44px;
+                    p{
+                        color: #FFF;
+                        font-family: 'Roboto-Regular';
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        padding: 16px 15px 17px 15px;
+                        border-radius: 100px;
+                        background: #347AE2;
+
+                    }
+                }
+
+                .mini__card2{
+                    margin-left: 541.6px;
+                    margin-top: -10px;
+                    p{
+                        color: #FFF;
+                        font-family: 'Roboto-Regular';
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        padding: 16px 15px 17px 15px;
+                        border-radius: 100px;
+                        background: #347AE2;
+
+                    }
+                    img{
+                        margin-top: -49.3px;
+                        margin-left: 270px;
+                    }
+                }
+                .mini__card4{
+                    margin-left: 530px;
+                    margin-top: -10px;
+                    p{
+                        color: #FFF;
+                        font-family: 'Roboto-Regular';
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        padding: 16px 15px 17px 15px;
+                        border-radius: 100px;
+                        background: #347AE2;
+
+                    }
+                    img{
+                        margin-top: -52px;
+                        margin-left: 286px;
+                    }
+                }
+
+            }
+
+            .card-footer{
+                z-index: 1;
+                border: 0;
+                background: #F8FBFF;
+                box-shadow: 0px 10px 18px 0px #DCE3EC;                
+                .type__group{
+                    display: flex;
+                    align-items: center;
+                    input{
+                        padding: 16px 649px 16px 30px;
+                        border: none;
+                        outline: 0;
+                        border-radius: 100px;
+                        background: #F5F5F5;
+                        &::placeholder{
+                            color: #757575;
+                            font-family: 'Roboto-Regular';
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 156%;
+                            letter-spacing: -0.165px;
+                        }
+                    }
+                    .add{
+                        cursor: pointer;
+                        margin-left: -96px;
+                        margin-right: 16px;
+                    }
+                    .camera{
+                        cursor: pointer;
+                    }
+                }
+            }
+            .item{
+                margin-top: 9px;
+                margin-bottom: -30px;
+                margin-left: -20px;
+                background: #FFF;
+                width: 1217px;
+                height: 55px;
+                z-index: -1;
+            }
+
+
+        }
+
+        
+        
+    }
+    .user__actives{
+        background: #F8FBFF;
+        padding: 35px 31px 20px 30px;
+        margin-top: 59px;
+        margin-left: -292px;
+        box-shadow: -8px 9px 15px 0px rgba(220, 227, 236, 0.48);   
+        overflow-y: scroll;   
+        scrollbar-color: #000;
+        height: 779px;
+        .first__user{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            img{
+                margin-top: -15px;
+                margin-right: 8px;
+            }
+            .user__info{
+                .user__name{
+                    color:#6C757D;
+                    font-family:'Inter-Regular';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+                .user__answer{
+                    margin-top: -20px;
+                    color: #000;
+                    font-family: 'Inter-Regular';
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+            }
+            .active__icon{
+                margin-left: 22px;
+            }
+        }
+        .second__user{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            img{
+                margin-top: -15px;
+                margin-right: 8px;
+            }
+            .user__info{
+                .user__name{
+                    color:#6C757D;
+                    font-family:'Inter-Regular';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+                .user__answer{
+                    margin-top: -20px;
+                    color: #000;
+                    font-family: 'Inter-Regular';
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+            }
+            .active__icon{
+                margin-left: 22px;
+            }
+        }
+        .third__user{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            img{
+                margin-top: -15px;
+                margin-right: 8px;
+            }
+            .user__info{
+                .user__name{
+                    color:#6C757D;
+                    font-family:'Inter-Regular';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+                .user__answer{
+                    margin-top: -20px;
+                    color: #000;
+                    font-family: 'Inter-Regular';
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+            }
+            .active__icon{
+                margin-left: 22px;
+            }
+        }
+        .fourth__user{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            img{
+                margin-top: -15px;
+                margin-right: 8px;
+            }
+            .user__info{
+                .user__name{
+                    color:#6C757D;
+                    font-family:'Inter-Regular';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+                .user__answer{
+                    margin-top: -20px;
+                    color: #000;
+                    font-family: 'Inter-Regular';
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+            }
+            .active__icon{
+                margin-left: 22px;
+            }
+        }
+        .fives__user{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            img{
+                margin-top: -15px;
+                margin-right: 8px;
+            }
+            .user__info{
+                .user__name{
+                    color:#6C757D;
+                    font-family:'Inter-Regular';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+                .user__answer{
+                    margin-top: -20px;
+                    color: #000;
+                    font-family: 'Inter-Regular';
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+            }
+            .active__icon{
+                margin-left: 22px;
+            }
+        }
+
     }
 }
+
+
 
 
 

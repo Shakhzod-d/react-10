@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from "react-router-dom";
 import {NavLink} from "react-router-dom";
 
 export default function Main() {
@@ -20,9 +19,10 @@ export default function Main() {
             <div className="main__menu">
             <div className="main__info">
                     <div className="user">
-                        <a href="#" className='user__icon'>
+                        <button className='button'>
                             <img src="./icons/user.svg" alt=""/>
-                        </a>
+
+                        </button>
 
                         <div className="user__info">
                             <h4>Username</h4>

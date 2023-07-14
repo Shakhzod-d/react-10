@@ -6,6 +6,7 @@ import Dushboard from './pages/Dushboard'
 import Messages from './pages/Messages'
 import Uploads from './pages/Uploads'
 import Users from './pages/Users'
+import Inmessage from './messages/Inmessage';
 
 
 export default function App() {
