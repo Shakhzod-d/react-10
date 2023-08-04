@@ -56,9 +56,9 @@ main .main__menu {
   align-items: center;
 }
 main .main__menu .main__info {
-  background: #F8FBFF;
+  background: #f8fbff;
   padding: 20px 18px 607.14px 17px;
-  box-shadow: 8px 0px 22px -7px #DCE3EC;
+  box-shadow: 8px 0px 22px -7px #dce3ec;
 }
 main .main__menu .main__info .user {
   display: flex;
@@ -125,28 +125,44 @@ main .main__menu .main__info .main__menu .nav .nav-item .nav-link .item {
   border-radius: 0px 2px 2px 0px;
 }
 main .main__menu .main__info .main__menu .nav .nav-item .nav-link:hover p {
-  color: #42BBFF;
+  color: #42bbff;
 }
-main .main__menu .main__info .main__menu .nav .nav-item .nav-link:hover svg path {
-  fill: #42BBFF;
+main
+  .main__menu
+  .main__info
+  .main__menu
+  .nav
+  .nav-item
+  .nav-link:hover
+  svg
+  path {
+  fill: #42bbff;
 }
 main .main__menu .main__info .main__menu .nav .nav-item .nav-link:focus .item {
   z-index: 1;
 }
 main .main__menu .main__info .main__menu .nav .nav-item .nav-link:focus p {
-  color: #42BBFF;
+  color: #42bbff;
 }
-main .main__menu .main__info .main__menu .nav .nav-item .nav-link:focus svg path {
-  fill: #42BBFF;
+main
+  .main__menu
+  .main__info
+  .main__menu
+  .nav
+  .nav-item
+  .nav-link:focus
+  svg
+  path {
+  fill: #42bbff;
 }
 main .main__menu .main__info .main__menu .nav .nav-item .active {
-  color: #42BBFF;
+  color: #42bbff;
 }
 main .main__menu .main__info .main__menu .nav .nav-item .active .item {
   z-index: 1;
 }
 main .main__menu .main__info .main__menu .nav .nav-item .active svg path {
-  fill: #42BBFF;
+  fill: #42bbff;
 }
 main .main__menu .main__info .main__menu .nav .upload__mess {
   display: flex;
@@ -155,7 +171,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess {
 main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-left: 41px;
   margin-top: 2px;
-  color: #0C3247;
+  color: #0c3247;
   font-family: "Inter-Regular";
   font-size: 10px;
   font-style: normal;
@@ -164,7 +180,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   text-decoration: none;
   padding: 3px 6px;
   border-radius: 10px;
-  background: #42BBFF;
+  background: #42bbff;
 }
 
 .input__groups {
@@ -187,12 +203,12 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .input__groups .advert__search .input__search {
   padding: 16px 678px 16px 59px;
   outline: none;
-  background: #F8FBFF;
+  background: #f8fbff;
   border: 0;
-  filter: drop-shadow(0px 10px 18px #DCE3EC);
+  filter: drop-shadow(0px 10px 18px #dce3ec);
 }
 .input__groups .advert__search .input__search::-moz-placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -201,7 +217,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   border-radius: 5px;
 }
 .input__groups .advert__search .input__search::placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -211,7 +227,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .input__groups .advert__search .btn {
   margin-top: -0.1px;
-  color: #FFF;
+  color: #fff;
   font-family: "Inter-Regular";
   font-size: 20px;
   font-style: normal;
@@ -219,18 +235,18 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: normal;
   padding: 15px 29px 15px 30px;
   border-radius: 5px;
-  background: #347AE2;
+  background: #347ae2;
   margin-left: 50px;
 }
 .input__groups .title {
   border-radius: 5px;
-  border: 1px solid #CDCDCD;
-  background: #F8FBFF;
+  border: 1px solid #cdcdcd;
+  background: #f8fbff;
   padding: 16px 747px 16px 16px;
   outline: none;
 }
 .input__groups .title::-moz-placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -238,7 +254,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: 20px;
 }
 .input__groups .title::placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -248,13 +264,13 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .input__groups .description {
   margin-top: 25px;
   border-radius: 5px;
-  border: 1px solid #CDCDCD;
-  background: #F8FBFF;
+  border: 1px solid #cdcdcd;
+  background: #f8fbff;
   padding: 16px 747px 16px 16px;
   outline: none;
 }
 .input__groups .description::-moz-placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -262,7 +278,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: 20px;
 }
 .input__groups .description::placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -272,13 +288,13 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .input__groups .http {
   margin-top: 25px;
   border-radius: 5px;
-  border: 1px solid #CDCDCD;
-  background: #F8FBFF;
+  border: 1px solid #cdcdcd;
+  background: #f8fbff;
   padding: 16px 747px 16px 16px;
   outline: none;
 }
 .input__groups .http::-moz-placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -286,7 +302,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: 20px;
 }
 .input__groups .http::placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -296,13 +312,13 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .input__groups .upload {
   margin-top: 25px;
   border-radius: 5px;
-  border: 1px solid #CDCDCD;
-  background: #F8FBFF;
+  border: 1px solid #cdcdcd;
+  background: #f8fbff;
   padding: 16px 747px 16px 16px;
   outline: none;
 }
 .input__groups .upload::-moz-placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -310,7 +326,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: 20px;
 }
 .input__groups .upload::placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -320,14 +336,14 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .input__groups .date__icon .date {
   margin-top: 25px;
   border-radius: 5px;
-  border: 1px solid #CDCDCD;
-  background: #F8FBFF;
+  border: 1px solid #cdcdcd;
+  background: #f8fbff;
   padding: 16px 268px 16px 16px;
   outline: none;
   margin-right: 13px;
 }
 .input__groups .date__icon .date::-moz-placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -335,7 +351,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: 20px;
 }
 .input__groups .date__icon .date::placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -350,14 +366,14 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .input__groups .upload__icon .ADS {
   margin-top: 25px;
   border-radius: 5px;
-  border: 1px solid #CDCDCD;
-  background: #F8FBFF;
+  border: 1px solid #cdcdcd;
+  background: #f8fbff;
   padding: 16px 268px 16px 16px;
   outline: none;
   margin-right: 13px;
 }
 .input__groups .upload__icon .ADS::-moz-placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -365,7 +381,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: 20px;
 }
 .input__groups .upload__icon .ADS::placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 18px;
   font-style: normal;
@@ -377,14 +393,14 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-left: -50px;
 }
 .input__groups .btn {
-  color: #FFF;
+  color: #fff;
   font-family: "Inter-Regular";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   border-radius: 5px;
-  background: #347AE2;
+  background: #347ae2;
   padding: 0;
   padding: 14px 28px 16px 27px;
   margin-left: 822px;
@@ -411,12 +427,12 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .uploads .uploads_search .input__search {
   padding: 16px 678px 16px 59px;
   outline: none;
-  background: #F8FBFF;
+  background: #f8fbff;
   border: 0;
-  filter: drop-shadow(0px 10px 18px #DCE3EC);
+  filter: drop-shadow(0px 10px 18px #dce3ec);
 }
 .uploads .uploads_search .input__search::-moz-placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -425,7 +441,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   border-radius: 5px;
 }
 .uploads .uploads_search .input__search::placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -434,7 +450,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   border-radius: 5px;
 }
 .uploads .uploads_search .btn {
-  color: #FFF;
+  color: #fff;
   font-family: "Inter-Regular";
   font-size: 20px;
   font-style: normal;
@@ -442,7 +458,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: normal;
   padding: 14px 29px 14px 30px;
   border-radius: 5px;
-  background: #347AE2;
+  background: #347ae2;
   margin-left: 50px;
 }
 .uploads .filter__icon {
@@ -470,7 +486,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .uploads .student__card .user__name .name {
   margin-left: 6px;
   margin-top: 13px;
-  color: #96A0B5;
+  color: #96a0b5;
   text-align: center;
   font-family: "Inter-Regular";
   font-size: 10px;
@@ -481,7 +497,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .uploads .student__card .user__name .days {
   margin-top: 13px;
   margin-left: 44px;
-  color: #96A0B5;
+  color: #96a0b5;
   text-align: center;
   font-family: "Inter-Regular";
   font-size: 7px;
@@ -494,14 +510,14 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   height: 110px;
   border-radius: 5px;
   border-radius: 10px;
-  border: 2px solid #F5F6F7;
-  background: #FFF;
+  border: 2px solid #f5f6f7;
+  background: #fff;
   padding: 5px;
   box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
 }
 .uploads .student__card .math {
   text-align: center;
-  color: #6B7A99;
+  color: #6b7a99;
   font-family: "Inter-Bold";
   font-size: 12px;
   font-style: normal;
@@ -509,7 +525,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: 20px;
 }
 .uploads .student__card .btn {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "Inter-Bold";
   font-size: 8px;
@@ -517,7 +533,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   font-weight: 800;
   line-height: 20px;
   border-radius: 2px;
-  background: #DC3545;
+  background: #dc3545;
   padding: 0 18.36px 0 18.36px;
 }
 
@@ -534,10 +550,10 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   outline: none;
   border: none;
   border-radius: 4px;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 .dushboard__menu .search__help .input__search::-moz-placeholder {
-  color: #BDBDBD;
+  color: #bdbdbd;
   font-family: "HindSiliguri-Regular";
   font-size: 14px;
   font-style: normal;
@@ -545,7 +561,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: normal;
 }
 .dushboard__menu .search__help .input__search::placeholder {
-  color: #BDBDBD;
+  color: #bdbdbd;
   font-family: "HindSiliguri-Regular";
   font-size: 14px;
   font-style: normal;
@@ -573,11 +589,11 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .dushboard__menu .user__cards .first__card {
   padding: 14px 41px 0 20px;
   border-radius: 12px;
-  background: #FAFAFA;
+  background: #fafafa;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
 }
 .dushboard__menu .user__cards .first__card .card__title {
-  color: #FF5B5A;
+  color: #ff5b5a;
   font-family: "HindSiliguri-Medium";
   font-size: 16px;
   font-style: normal;
@@ -606,11 +622,11 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-left: 20px;
   padding: 14px 41px 0 20px;
   border-radius: 12px;
-  background: #FAFAFA;
+  background: #fafafa;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
 }
 .dushboard__menu .user__cards .second__card .card__title {
-  color: #FF5B5A;
+  color: #ff5b5a;
   font-family: "HindSiliguri-Medium";
   font-size: 16px;
   font-style: normal;
@@ -638,12 +654,12 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .dushboard__menu .user__cards .third__card {
   padding: 14px 41px 0 20px;
   border-radius: 12px;
-  background: #FAFAFA;
+  background: #fafafa;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
   margin-left: 24px;
 }
 .dushboard__menu .user__cards .third__card .card__title {
-  color: #FF5B5A;
+  color: #ff5b5a;
   font-family: "HindSiliguri-Medium";
   font-size: 16px;
   font-style: normal;
@@ -745,12 +761,12 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .main__users .users__search .input__search {
   padding: 16px 678px 16px 59px;
   outline: none;
-  background: #F8FBFF;
+  background: #f8fbff;
   border: 0;
-  filter: drop-shadow(0px 10px 18px #DCE3EC);
+  filter: drop-shadow(0px 10px 18px #dce3ec);
 }
 .main__users .users__search .input__search::-moz-placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -759,7 +775,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   border-radius: 5px;
 }
 .main__users .users__search .input__search::placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -768,7 +784,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   border-radius: 5px;
 }
 .main__users .users__search .btn {
-  color: #FFF;
+  color: #fff;
   font-family: "Inter-Regular";
   font-size: 20px;
   font-style: normal;
@@ -776,7 +792,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: normal;
   padding: 14px 29px 14px 30px;
   border-radius: 5px;
-  background: #347AE2;
+  background: #347ae2;
   margin-left: 50px;
 }
 .main__users table {
@@ -801,7 +817,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   height: 20px;
   border-radius: 2px;
   border: 1px solid #f1f1f1;
-  background: var(--light-white, #FFF);
+  background: var(--light-white, #fff);
 }
 .main__users table thead .img {
   margin-right: 30px;
@@ -824,7 +840,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .main__users table thead .block {
   margin-right: 108px;
 }
-.main__users table tbody {
+/* .main__users table tbody {
   margin-top: 50px;
   margin-left: -998px;
   display: flex;
@@ -835,12 +851,12 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   width: 20px;
   height: 20px;
   border-radius: 2px;
-  background: #FFF;
+  background: #fff;
   cursor: pointer;
 }
 .main__users table tbody p {
   margin-top: 13px;
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Roboto-Regular", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -865,7 +881,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .main__users table tbody .btn {
   margin-top: -5px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "Roboto-Medium";
   font-size: 14px;
@@ -873,7 +889,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   font-weight: 500;
   line-height: 22px;
   border-radius: 50px;
-  background: #DC3545;
+  background: #dc3545;
   padding: 2px 15px;
   margin-right: 102px;
 }
@@ -888,7 +904,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .main__users table tbody .amal {
   cursor: pointer;
   margin-top: -5px;
-}
+} */
 
 .mess__menu {
   margin-top: -955.5px;
@@ -905,12 +921,12 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .mess__menu .mess__search .input__search {
   padding: 16px 678px 16px 59px;
   outline: none;
-  background: #F8FBFF;
+  background: #f8fbff;
   border: 0;
-  filter: drop-shadow(0px 10px 18px #DCE3EC);
+  filter: drop-shadow(0px 10px 18px #dce3ec);
 }
 .mess__menu .mess__search .input__search::-moz-placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -919,7 +935,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   border-radius: 5px;
 }
 .mess__menu .mess__search .input__search::placeholder {
-  color: #96A0B5;
+  color: #96a0b5;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -928,7 +944,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   border-radius: 5px;
 }
 .mess__menu .mess__search .btn {
-  color: #FFF;
+  color: #fff;
   font-family: "Inter-Regular";
   font-size: 20px;
   font-style: normal;
@@ -936,7 +952,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: normal;
   padding: 14px 29px 14px 30px;
   border-radius: 5px;
-  background: #347AE2;
+  background: #347ae2;
   margin-left: 50px;
 }
 .mess__menu .mess__cards {
@@ -965,7 +981,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-top: -20px;
 }
 .mess__menu .mess__cards .card1 .user__info .name {
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -974,7 +990,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .mess__menu .mess__cards .card1 .user__info .info {
   margin-top: -10px;
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Regular";
   font-size: 13.123px;
   font-style: normal;
@@ -985,7 +1001,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .mess__menu .mess__cards .card1 .hour {
   margin-top: 20px;
-  color: #B5BABE;
+  color: #b5babe;
   font-family: "Inter-Regular";
   font-size: 13.123px;
   font-style: normal;
@@ -994,7 +1010,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .mess__menu .mess__cards hr {
   margin-top: -2px;
-  color: #96A0B5;
+  color: #96a0b5;
   opacity: 0.5;
   width: 1014px;
   height: 1px;
@@ -1022,7 +1038,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-top: -20px;
 }
 .mess__menu .mess__cards .card2 .user__info .name {
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -1031,7 +1047,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .mess__menu .mess__cards .card2 .user__info .info {
   margin-top: -10px;
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Regular";
   font-size: 13.123px;
   font-style: normal;
@@ -1041,7 +1057,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .mess__menu .mess__cards .card2 .hour {
   margin-top: 20px;
-  color: #B5BABE;
+  color: #b5babe;
   font-family: "Inter-Regular";
   font-size: 13.123px;
   font-style: normal;
@@ -1050,7 +1066,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .mess__menu .mess__cards hr {
   margin-top: -2px;
-  color: #96A0B5;
+  color: #96a0b5;
   opacity: 0.5;
   width: 1014px;
   height: 1px;
@@ -1078,7 +1094,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-top: -20px;
 }
 .mess__menu .card3 .user__info .name {
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Medium";
   font-size: 14px;
   font-style: normal;
@@ -1087,7 +1103,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .mess__menu .card3 .user__info .info {
   margin-top: -10px;
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Regular";
   font-size: 13.123px;
   font-style: normal;
@@ -1097,7 +1113,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .mess__menu .card3 .hour {
   margin-top: 20px;
-  color: #B5BABE;
+  color: #b5babe;
   font-family: "Inter-Regular";
   font-size: 13.123px;
   font-style: normal;
@@ -1106,7 +1122,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .mess__menu hr {
   margin-top: -2px;
-  color: #96A0B5;
+  color: #96a0b5;
   opacity: 0.5;
   width: 1014px;
   height: 1px;
@@ -1126,8 +1142,8 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .message__user .container .card .card-header {
   z-index: 1;
   border-radius: 5px;
-  background: #F8FBFF;
-  box-shadow: 0px 12px 15px -11px #DCE3EC;
+  background: #f8fbff;
+  box-shadow: 0px 12px 15px -11px #dce3ec;
   border: 0;
   height: 68px;
   display: flex;
@@ -1146,7 +1162,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .message__user .container .card .card-header .user__class p {
   margin-top: -3px;
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Regular";
   font-size: 14px;
   font-style: normal;
@@ -1154,15 +1170,15 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: 22px;
 }
 .message__user .container .card .card-body {
-  background: #F8FBFF;
-  box-shadow: 0px 10px 18px 0px #DCE3EC;
+  background: #f8fbff;
+  box-shadow: 0px 10px 18px 0px #dce3ec;
   overflow-y: scroll;
   position: sticky;
 }
 .message__user .container .card .card-body .message__card {
   margin-top: 31px;
   border-radius: 5px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   margin-left: 545px;
 }
@@ -1183,7 +1199,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .message__user .container .card .card-body .message__card .movie__info {
   margin-top: -14px;
   margin-left: 8.09px;
-  color: #0A0A0A;
+  color: #0a0a0a;
   font-family: "Inter-Regular";
   font-size: 13.123px;
   font-style: normal;
@@ -1201,7 +1217,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .message__user .container .card .card-body .message__card .select__icons p {
   margin-right: 5px;
-  color: #9A9A9A;
+  color: #9a9a9a;
   font-family: "Inter-Regular";
   font-size: 13.123px;
   font-style: normal;
@@ -1218,7 +1234,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-top: 44px;
 }
 .message__user .container .card .card-body .mini__card p {
-  color: #FFF;
+  color: #fff;
   font-family: "Roboto-Regular";
   font-size: 18px;
   font-style: normal;
@@ -1226,14 +1242,14 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: normal;
   padding: 16px 15px 17px 15px;
   border-radius: 100px;
-  background: #347AE2;
+  background: #347ae2;
 }
 .message__user .container .card .card-body .mini__card2 {
   margin-left: 541.6px;
   margin-top: -10px;
 }
 .message__user .container .card .card-body .mini__card2 p {
-  color: #FFF;
+  color: #fff;
   font-family: "Roboto-Regular";
   font-size: 18px;
   font-style: normal;
@@ -1241,7 +1257,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: normal;
   padding: 16px 15px 17px 15px;
   border-radius: 100px;
-  background: #347AE2;
+  background: #347ae2;
 }
 .message__user .container .card .card-body .mini__card2 img {
   margin-top: -49.3px;
@@ -1252,7 +1268,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-top: -10px;
 }
 .message__user .container .card .card-body .mini__card4 p {
-  color: #FFF;
+  color: #fff;
   font-family: "Roboto-Regular";
   font-size: 18px;
   font-style: normal;
@@ -1260,7 +1276,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   line-height: normal;
   padding: 16px 15px 17px 15px;
   border-radius: 100px;
-  background: #347AE2;
+  background: #347ae2;
 }
 .message__user .container .card .card-body .mini__card4 img {
   margin-top: -52px;
@@ -1269,8 +1285,8 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 .message__user .container .card .card-footer {
   z-index: 1;
   border: 0;
-  background: #F8FBFF;
-  box-shadow: 0px 10px 18px 0px #DCE3EC;
+  background: #f8fbff;
+  box-shadow: 0px 10px 18px 0px #dce3ec;
 }
 .message__user .container .card .card-footer .type__group {
   display: flex;
@@ -1281,9 +1297,14 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   border: none;
   outline: 0;
   border-radius: 100px;
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
-.message__user .container .card .card-footer .type__group input::-moz-placeholder {
+.message__user
+  .container
+  .card
+  .card-footer
+  .type__group
+  input::-moz-placeholder {
   color: #757575;
   font-family: "Roboto-Regular";
   font-size: 18px;
@@ -1313,13 +1334,13 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-top: 9px;
   margin-bottom: -30px;
   margin-left: -20px;
-  background: #FFF;
+  background: #fff;
   width: 1217px;
   height: 55px;
   z-index: -1;
 }
 .message__user .user__actives {
-  background: #F8FBFF;
+  background: #f8fbff;
   padding: 35px 31px 20px 30px;
   margin-top: 59px;
   margin-left: -292px;
@@ -1338,7 +1359,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-right: 8px;
 }
 .message__user .user__actives .first__user .user__info .user__name {
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Regular";
   font-size: 20px;
   font-style: normal;
@@ -1365,7 +1386,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-right: 8px;
 }
 .message__user .user__actives .second__user .user__info .user__name {
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Regular";
   font-size: 20px;
   font-style: normal;
@@ -1392,7 +1413,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-right: 8px;
 }
 .message__user .user__actives .third__user .user__info .user__name {
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Regular";
   font-size: 20px;
   font-style: normal;
@@ -1419,7 +1440,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-right: 8px;
 }
 .message__user .user__actives .fourth__user .user__info .user__name {
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Regular";
   font-size: 20px;
   font-style: normal;
@@ -1446,7 +1467,7 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
   margin-right: 8px;
 }
 .message__user .user__actives .fives__user .user__info .user__name {
-  color: #6C757D;
+  color: #6c757d;
   font-family: "Inter-Regular";
   font-size: 20px;
   font-style: normal;
@@ -1462,4 +1483,4 @@ main .main__menu .main__info .main__menu .nav .upload__mess .share {
 }
 .message__user .user__actives .fives__user .active__icon {
   margin-left: 22px;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
